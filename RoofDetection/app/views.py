@@ -16,14 +16,18 @@ def index(request):
 def store(request):
     if request.method=="POST":
         address = request.POST['address']
+        print(address)
         headers = {'Content-Type': 'application/x-www-form-urlencoded',
         }
-
+      
         r = requests.post('https://api.gic.org/auth/Login',  data={'username': 'aortiz@safepointins.com', 'password': 'Tachoa@2600'}, headers=headers)
         data = r.json()
         authToken =data['token']
+    
         #print(r.json())
-        url='https://api.gic.org/property/GetPropertyInformation?wkt=POINT(-83.88721614672113 35.9600755614104)&token='+authToken
+        url="https://api.gic.org/property/GetPropertyInformation?wkt=POINT("+address+")&token="+authToken
+
+        #url='https://api.gic.org/property/GetPropertyInformation?wkt=POINT(-82.7139639007722849 27.8590883896834072)&token='+authToken
         wk= requests.post(url)
         cnt=0
         wkdata=wk.json()
