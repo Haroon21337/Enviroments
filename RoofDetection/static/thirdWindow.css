@@ -1,0 +1,30 @@
+.top{
+    background-image: url('image/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;      
+}
+.img{
+    margin-top: 10%;
+}
+#w3review{
+    margin-left: 10%;
+    margin-top: 15%;
+    background-color: green;
+    color: white;
+}
+.logo1{
+    margin-left: 0%;
+    position:fixed; 
+	top:0; 
+	left:0;
+}
+.head{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.back_button{
+    margin-top: 2%;
+    margin-left: 15px;
+}
+

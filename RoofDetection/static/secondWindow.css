@@ -1,0 +1,77 @@
+.top{
+    background-image: url('image/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;      
+}
+.col{
+    text-align: center;
+}
+.head{
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+.img{
+    width: 250;
+    height: 5;
+    margin-top: 10%;
+}
+.dropdown_1{
+    text-align: center;
+    margin-top: 10%;
+}
+.dropdown_2{
+    text-align: center;
+    margin-top: 10%;
+}
+.dropdown_3{
+    text-align: center;
+    margin-top: 10%;
+}
+.dropdown_4{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.dropdown_1 h2{
+    color: white;
+}
+.dropdown_2 h2{
+    color: white;
+}
+.dropdown_3 h2{
+    color: white;
+}
+.dropdown_4 h2{
+    color: white;
+}
+.textbox ul {
+    color: white;
+    padding: 0;
+    list-style: none;
+}
+.form-control{
+    background-color: green;
+    color: white;
+    width: 50%;
+    height: 50px;
+}
+.btn{
+    background-color: green;
+}
+.logo1{
+    margin-left: 0%;
+    position:fixed; 
+	top:0; 
+	left:0;
+}
+.head{
+    color: white;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.back_button{
+    margin-top: 2%;
+}
+
