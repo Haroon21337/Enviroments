@@ -20,6 +20,7 @@ from app import views
 
 urlpatterns = [
     path("", views.index, name='app'),
+    
     path("store", views.store, name='app'),
     path("secondWindow", views.secondWindow, name='app'),
     path("thirdWindow", views.thirdWindow, name='app'),

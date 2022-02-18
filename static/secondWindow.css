@@ -8,14 +8,15 @@
     text-align: center;
 }
 .head{
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     margin-top: 3%;
     text-align: center;
 }
 .img{
-    width: 250;
-    height: 5;
-    margin-top: 10%;
+    width: auto;
+    height: auto;
+    margin-top: 20%;
 }
 .dropdown_1{
     text-align: center;
@@ -47,10 +48,15 @@
     color: white;
 }
 .textbox ul {
-    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(27, 20, 20, 0.822);
     padding: 0;
     list-style: none;
+    margin-left: 5%;
 }
+
 .form-control{
     background-color: green;
     color: white;
@@ -75,3 +81,14 @@
     margin-top: 2%;
 }
 
+.input-group{
+    margin-top: 10%;
+    
+}
+
+
+.textbox{
+    margin-left: 10%;
+    background-color: rgb(250, 246, 242);
+
+}
